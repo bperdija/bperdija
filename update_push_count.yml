@@ -17,13 +17,15 @@ jobs:
       with:
         node-version: 14
 
+    - name: Fetch total commits
+      id: fetch-commits
+      run: |
+        response=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/repos/bperdija/bperdija")
+        total_commits=$(echo "$response" | jq -r .default_branch.commit.committer.total)
+
+        echo "::set-output name=total_commits::$total_commits"
+
     - name: Update Push Count
       run: |
-        # Calculate the number of pushes (replace with your actual calculation)
-        push_count=$(git rev-list --count HEAD)
-
-        # Replace the push count in README.md
-        sed -i "s/PUSH_COUNT_PLACEHOLDER/$push_count/" README.md
-
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        sed -i "s/TOTAL_COMMITS_PLACEHOLDER/${{ steps.fetch-commits.outputs.total_commits }}/" README.md

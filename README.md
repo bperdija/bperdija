@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-![Total Commits](https://img.shields.io/github/commit-activity/total/bperdija/bperdija?label=Total%20Commits)
+![Push Count](https://img.shields.io/github/commit-activity/w/bperdija/bperdija?label=Pushes)
 
 <!--
 **bperdija/bperdija** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

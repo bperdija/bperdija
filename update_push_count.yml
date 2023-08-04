@@ -1,29 +1,27 @@
-name: Update Push Count
+name: Update Commit Count
 
 on:
   schedule:
     - cron: "0 0 * * *"
 
 jobs:
-  update-push-count:
+  update-commit-count:
     runs-on: ubuntu-latest
 
     steps:
     - name: Check out repository
       uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: 14
-
-    - name: Update Push Count
+    - name: Fetch total commit count
+      id: fetch-commits
       run: |
-        # Calculate the number of pushes (replace with your actual calculation)
-        push_count=$(git rev-list --count HEAD)
+        response=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/repos/bperdija/bperdija")
+        total_commits=$(echo "$response" | jq -r .default_branch.commit.committer.total)
 
-        # Replace the push count in README.md
-        sed -i "s/PUSH_COUNT_PLACEHOLDER/$push_count/" README.md
+        echo "::set-output name=total_commits::$total_commits"
 
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Update Commit Count in README
+      run: |
+        # Replace the total commit count in README.md
+        sed -i "s/TOTAL_COMMIT_COUNT_PLACEHOLDER/${{ steps.fetch-commits.outputs.total_commits }}/" README.md

@@ -17,11 +17,13 @@ jobs:
       with:
         node-version: 14
 
-    - name: Install dependencies
-      run: npm install
-
     - name: Update Push Count
-      run: node update_push_count.js
+      run: |
+        # Calculate the number of pushes (replace with your actual calculation)
+        push_count=$(git rev-list --count HEAD)
+
+        # Replace the push count in README.md
+        sed -i "s/PUSH_COUNT_PLACEHOLDER/$push_count/" README.md
+
       env:
-        GITHUB_TOKEN: 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
-        README_PATH: 'README.md'
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,24 @@
+name: Update Push Count
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run every day at midnight UTC
+
+jobs:
+  update_push_count:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Update Push Count
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          
+          push_count=$(git rev-list --count HEAD)
+          echo "Pushes: $push_count" > pushes.md
+          
+          git add pushes.md
+          git commit -m "Update push count"
+          git push

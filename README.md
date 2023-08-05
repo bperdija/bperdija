@@ -22,9 +22,10 @@ I am experienced in working with cross-functional teams and delivering innovativ
     <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
   </a>, 
 
-  <a href="https://github.com/bperdija">
-    <img alt="Email" src="https://img.shields.io/badge/Email-43853d?style=flat-square&logo=minutemailer&logoColor=white" />
-  </a>
+  <a href="mailto:borisperdija99@gmail.com">
+  <img alt="Email" src="https://img.shields.io/badge/Email-43853d?style=flat-square&logo=minutemailer&logoColor=white" />
+</a>
+
 </p>
 
 

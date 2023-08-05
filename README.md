@@ -114,7 +114,7 @@ I am experienced in working with cross-functional teams and delivering innovativ
     <tr>
       <td><b>Minimap Application</b></td>
       <td><p>Dart, Flutter</p></td>
-      <td><p> Developed the user interface for an application that takes positional information from UWB positioning data and presents it to the screen. Included features such as <b>light/dark mode</b>; <b>individual person tracking</b>; <b>footprint history</b>; and <b>zoom, pan and recenter functionality</b>.
+      <td><p> Developed the user interface for an application that takes positional information from UWB positioning data and presents it to the screen. Included features such as <b>light/dark mode</b>; <b>individual person tracking (distance and angle)</b>; <b>footprint history</b>; and <b>zoom, pan and recenter functionality</b>.
  </p></td>
     </tr>
   </tbody>

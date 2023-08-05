@@ -33,7 +33,7 @@ I am experienced in working with cross-functional teams and delivering innovativ
 -----
 
 
-<h4>Things I LOVE coding or working with: 🤩 </h4>
+<h4>I LOVE coding or working with: 🤩 </h4>
 <p>
   <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=cplusplus&logoColor=white" />
   <img alt="C++" src="https://img.shields.io/badge/-C++-ea2845?style=flat-square&logo=nestjs&logoColor=white" />
@@ -54,7 +54,7 @@ I am experienced in working with cross-functional teams and delivering innovativ
   
 </p>
 
-<h4>Things I dabble in 😎: </h4>
+<h4>I dabble in 😎: </h4>
 <p>
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-46a2f1?style=flat-square&logo=typescript&logoColor=white" />
   <img alt="Angular" src="https://img.shields.io/badge/-Angular-2088FF?style=flat-square&logo=angular&logoColor=white" />
@@ -67,7 +67,7 @@ I am experienced in working with cross-functional teams and delivering innovativ
   <img alt="Google Firebase" src="https://img.shields.io/badge/-Google Firebase-B7178C?style=flat-square&logo=firebase&logoColor=white" />
 </p>
 
-<h4>Things I'm currently learning 🤔: </h4>
+<h4>I'm currently learning 🤔: </h4>
 <p">
   <img alt="Swift" src="https://img.shields.io/badge/-Swift-007ACC?style=flat-square&logo=swift&logoColor=white" />
 </p>
@@ -75,7 +75,7 @@ I am experienced in working with cross-functional teams and delivering innovativ
 -----
 
 
-<h3>Some of my neat projects</h3>
+<h3>Some of my notable projects</h3>
 <table>
   <thead align="center">
     <tr border: none;>

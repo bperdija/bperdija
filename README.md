@@ -86,7 +86,7 @@ I am experienced in working with cross-functional teams and delivering innovativ
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/bperdija/Chirper_Application"><b>UDP Peer-To-Peer Chat Program</b></a></td>
+      <td><a href="https://github.com/bperdija/Linux-UDP-Chat-Program"><b>UDP Peer-To-Peer Chat Program</b></a></td>
       <td><p>C, UDP Protocol</p></td>
       <td><p>Utilized multithreading methods, mutexes, and the UDP protocol to develop a <b>chat program that allowed users from one terminal to send and receive encrypted messages at a different terminal</b>.</p></td>
     </tr>

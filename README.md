@@ -116,7 +116,11 @@ I am experienced in working with cross-functional teams and delivering innovativ
       <td><p>Dart, Flutter</p></td>
       <td><p> Developed the user interface for an application that takes positional information from UWB positioning data and presents it to the screen. Included features such as <b>light/dark mode</b>; <b>individual person tracking (distance and angle)</b>; <b>footprint history</b>; and <b>zoom, pan and recenter functionality</b>.
  </p></td>
-    </tr>
+    <tr>
+      <td><a href="https://github.com/bperdija/Kotlin-Stress-Meter"><b>Anroid Stress Meter Application</b></a></td>
+      <td><p>Kotlin</p></td>
+      <td><p> Developed a Kotlin-based Android Stress Meter Application that takes user-chosen images and records relevant stress levels. Scores are written to a .CSV file and shown dynamically on a graph.</b>.
+ </p></td>
   </tbody>
 </table>
 

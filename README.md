@@ -117,10 +117,33 @@ I am experienced in working with cross-functional teams and delivering innovativ
       <td><p> Developed the user interface for an application that takes positional information from UWB positioning data and presents it to the screen. Included features such as <b>light/dark mode</b>; <b>individual person tracking (distance and angle)</b>; <b>footprint history</b>; and <b>zoom, pan and recenter functionality</b>.
  </p></td>
     <tr>
-      <td><a href="https://github.com/bperdija/Kotlin-Stress-Meter"><b>Anroid Stress Meter Application</b></a></td>
+      <td><a href="https://github.com/bperdija/Kotlin-Stress-Meter"><b>Android Stress Meter Application</b></a></td>
       <td><p>Kotlin</p></td>
       <td><p> Developed a Kotlin-based Android Stress Meter Application that takes user-chosen images and records relevant stress levels. Scores are written to a .CSV file and shown dynamically on a graph.</b>.
  </p></td>
+     </tr>
+     <tr>
+      <td><a><b>Android Fitness Tracker</b></a></td>
+      <td><p>Kotlin</p></td>
+      <td><p> Developed a Kotlin-based fitness tracker that allows users to keep track of and record exercises. Implemented user account page, unit preferences settings, exercise history information, manual entries, and GPS-based entries with distance, average speed, and path metrics through the use of Google Maps API’s. Incorporated a database to add and delete prior exercises
+      </p></td>
+      <tr>
+      <td><a><b>Microscope Slide Mobile Application</b></a></td>
+      <td><p>Kotlin</p></td>
+      <td><p>Developed a Kotlin-based educational application that allows users to upload biology slides for others to view. Designed the UI, implemented Firebase authentication, and a database to keep track of slide names, information, and images
+      </p></td>
+     <tr>
+      <td><a><b>Angular Crime Reporting Web Application</b></a></td>
+      <td><p>Angular, Javascript, HTML</p></td>
+      <td><p>An Angular web application that allows users to report criminal activities in the area. Utilized Postman and storage server API’s to save information regarding active crimes.
+      </p></td>
+      <tr>
+      <td><a><b>Pig Tracker Web App</b></a></td>
+      <td><p>Javascript, HTML</p></td>
+      <td><p>Created a modular Typescript-based web page that displays all animals recorded on a farm. Implemented a window popup for users to add new animals, as well as the ability to view more information or delete an animal. Added sorting functionality to the animal list and further implemented meaningful feedback on incorrect user inputs
+      </p></td>
+
+
   </tbody>
 </table>
 
